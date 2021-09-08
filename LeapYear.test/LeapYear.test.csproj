@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Assignment00\Assignment00.csproj" />
+    <ProjectReference Include="..\LeapYear\LeapYear.csproj" />
   </ItemGroup>
 
 </Project>
