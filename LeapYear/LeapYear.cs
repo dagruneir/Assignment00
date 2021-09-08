@@ -7,13 +7,13 @@ namespace Assignment00
         public static void Main(string[] args)
         {
             Console.WriteLine("Enter year:");
-            int year = Int32.Parse(Console.ReadLine());
+            int year = Convert.ToInt32(Console.ReadLine());
             LeapYear ly = new LeapYear();
             bool leap = ly.IsLeapYear(year);
             if (leap){
-                Console.WriteLine("yay");
+                Console.WriteLine("Leap year: yay");
             } else {
-                Console.WriteLine("nay");
+                Console.WriteLine("Leap year: nay");
             }
         }
 
