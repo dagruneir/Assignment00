@@ -2,7 +2,7 @@
 
 namespace Assignment00
 {
-    public class Program
+    public class HelloWorld
     {
         public static void Main(string[] args)
         {
