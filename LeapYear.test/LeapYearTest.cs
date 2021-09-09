@@ -27,5 +27,15 @@ namespace Assignment00.test
             var returnFalse = ly.IsLeapYear(1700);
             Assert.False(returnFalse);
         }
+
+        [Fact]
+        public void LeapYearDividedBy100()
+        {
+            var returnTrue = ly.IsLeapYear(1600);
+            Assert.True(returnTrue);
+
+            var returnFalse = ly.IsLeapYear(1700);
+            Assert.False(returnFalse);
+        }
     }
 }
